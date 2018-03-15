@@ -1,6 +1,8 @@
 var withButtonItemsClass = document.getElementsByClassName('button');
 
-for ( var b = 0 ; b < withButtonItemsClass.length ; b++ ) {
+var i = withButtonItemsClass.length;
+
+for ( var b = 0; b < i; b++ ) {
 	
 	console.log(withButtonItemsClass[b].innerText);
-} 
+}; 
